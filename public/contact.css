@@ -14,7 +14,7 @@ a {
 /*-----------------HEADER-----------------*/
 /*----------------------------------------*/
 header {
-	background-color: teal;
+	background-color: red;
 }
 
 a, a:visited {
@@ -26,12 +26,22 @@ a:hover {
 }
 
 .my-list {
- margin:3;
+ margin:0;
+ padding:0;
+ display: flex;
+}
+
+.my-list2 {
+ margin:0;
  padding:0;
  display: flex;
 }
 
 .my-list li {
+ padding: 0.5em 0 0.5em 1em;
+}
+
+.my-list2 li {
  padding: 0.5em 0 0.5em 1em;
 }
 
@@ -43,13 +53,12 @@ a:hover {
 }
 
 /*----------------------------------------*/
-/*--------MAIN ARTICLE SECTION-----------*/
+/*--------MAIN ARTICLE SECTION------------*/
 /*----------------------------------------*/
 
 #main-article {
 padding: 0 0.75em 0 0.75em;
 }
-
 /*----------------------------------------*/
 /*-------------EVENTS SECTION-------------*/
 /*----------------------------------------*/
@@ -57,6 +66,7 @@ padding: 0 0.75em 0 0.75em;
 #events {
 display: flex;
 flex-direction: column;
+text-align: center;
 }
 
 .each_event {
@@ -75,10 +85,10 @@ padding: 0.75em;
 /*----------------------------------------*/
 
 footer {
-	background-color: teal;
+	background-color: red;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: auto) {
 	body {
 		width: 800px;
 		margin: 0 auto 0 auto;
@@ -98,9 +108,9 @@ flex-direction: row;
 
 /*-----------------FOOTER-----------------*/
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: auto) {
 	body {
-		width: 700px;
+		width: 900px;
 		margin: 0 auto 0 auto;
 	}
 

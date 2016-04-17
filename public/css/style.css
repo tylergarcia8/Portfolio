@@ -14,7 +14,7 @@ a {
 /*-----------------HEADER-----------------*/
 /*----------------------------------------*/
 header {
-	background-color: teal;
+	background-color: blue;
 }
 
 a, a:visited {
@@ -26,12 +26,22 @@ a:hover {
 }
 
 .my-list {
- margin:3;
+ margin:0;
+ padding:0;
+ display: flex;
+}
+
+.my-list2 {
+ margin:0;
  padding:0;
  display: flex;
 }
 
 .my-list li {
+ padding: 0.5em 0 0.5em 1em;
+}
+
+.my-list2 li {
  padding: 0.5em 0 0.5em 1em;
 }
 
@@ -43,7 +53,7 @@ a:hover {
 }
 
 /*----------------------------------------*/
-/*--------MAIN ARTICLE SECTION-----------*/
+/*--------MAIN ARTICLE SECTION------------*/
 /*----------------------------------------*/
 
 #main-article {
@@ -74,7 +84,7 @@ padding: 0.75em;
 /*----------------------------------------*/
 
 footer {
-	background-color: teal;
+	background-color: blue;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -99,11 +109,8 @@ flex-direction: row;
 }
 @media only screen and (min-width: 750px) {
 	body {
-		width: 700px;
+		width: 1200px;
 		margin: 0 auto 0 auto;
 	}
 
 }
-
-
-
