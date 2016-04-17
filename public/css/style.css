@@ -1,5 +1,20 @@
-* {
+/** {
  box-sizing: border-box;
+}*/
+
+/*#about , html {
+	height: 100%;
+	width:  100%;
+}*/
+
+/*.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
 
 li {
@@ -9,11 +24,11 @@ li {
 a {
  text-decoration: none;
 }
-
+*/
 /*----------------------------------------*/
 /*-----------------HEADER-----------------*/
 /*----------------------------------------*/
-header {
+/*header {
 	background-color: blue;
 }
 
@@ -43,26 +58,26 @@ a:hover {
 
 .my-list2 li {
  padding: 0.5em 0 0.5em 1em;
-}
+}*/
 
 /*----------------------------------------*/
 /*-----------------TITLE------------------*/
 /*----------------------------------------*/
-#name-title {
+/*#name-title {
 	text-align: center;
-}
+}*/
 
 /*----------------------------------------*/
 /*--------MAIN ARTICLE SECTION------------*/
 /*----------------------------------------*/
-
+/*
 #main-article {
-padding: 0 0.75em 0 0.75em;
-}
+padding: 0 2em 0 0.75em;
+}*/
 /*----------------------------------------*/
 /*-------------EVENTS SECTION-------------*/
 /*----------------------------------------*/
-
+/*
 #events {
 display: flex;
 flex-direction: column;
@@ -77,22 +92,23 @@ padding: 0.75em;
 .each_event img {
 	width: 100%;
 	height: auto;
-}
+}*/
 
 /*----------------------------------------*/
 /*-----------------FOOTER-----------------*/
 /*----------------------------------------*/
 
-footer {
+/*footer {
 	background-color: blue;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 750px) {
 	body {
-		width: 800px;
+		width: 100%;
+		height: 100%;
 		margin: 0 auto 0 auto;
 
-	}
+	}*/
 /*-----------------HEADER-----------------*/
 
 /*-----------------TITLE------------------*/
@@ -100,17 +116,163 @@ footer {
 /*--------MAIN ARTICLE SECTION-----------*/
 
 /*-------------EVENTS SECTION-------------*/
-
+/*
 #events {
 flex-direction: row;
-}
+}*/
 
 /*-----------------FOOTER-----------------*/
-}
+/*}
 @media only screen and (min-width: 750px) {
 	body {
-		width: 1200px;
+		width: 100%;
 		margin: 0 auto 0 auto;
 	}
 
+}*/
+
+
+
+
+/*----------------------------------------*/
+/*-------------Example code---------------*/
+/*----------------------------------------*/
+body {
+  position: relative;
+  font-size: 16px;
+  font-family: Oxygen, sans-serif;
+  padding-top: 50px;
+}
+
+/* Navbar customizations */
+
+.navbar-custom {
+  background-color: #455A64;
+  border: 0px;
+  font-family: Oxygen;
+}
+
+.navbar-custom .navbar-brand {
+  color: #FFF;
+  font-family: "Josefin Sans", serif;
+  font-size: 1.8em;
+  margin: 0px;
+}
+
+.navbar-brand a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand a:hover, navbar-brand a:focus, navbar-brand a:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #FFF;
+  background-color: #607D8B;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #FFF;
+}
+
+/* hamburger menu */
+
+.navbar-custom .navbar-toggle {
+  border: 0px;
+  margin: 6px 15px 2px 0px;
+}
+
+#nav-toggle-icon {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#nav-toggle-icon:hover {
+  color: #FFF;
+}
+
+/* Main */
+
+h1,
+h2 {
+  font-family: "Josefin Sans";
+}
+
+#home {
+  height: 500px;
+  padding: 60px;
+  background-image: url('http://i66.tinypic.com/2j3si28.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about {
+  padding: 40px 30px;
+  background-color: #FFF9C4;
+}
+
+#about img {
+  border-style: solid;
+  border-color: #FFF;
+  border-width: 8px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+#portfolio {
+  padding: 40px 30px;
+  background-color: #CFD8DC;
+}
+
+#portfolio .col-xs-12 {
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+#portfolio .thumbnail {
+  background-color: rgba(255, 255, 255, 0.7);
+  max-width: 450px;
+}
+
+#portfolio .thumbnail:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#portfolio a {
+  text-decoration: none;
+}
+
+#contact {
+  padding: 40px 40px 100px 40px;
+  background-color: #FFF9C4;
+}
+
+#contact a {
+  color: #37474F;
+}
+
+.project {
+  padding: 10px;
+}
+
+.footer {
+  padding: 15px 10px 5px 10px;
+  background-color: #455A64;
+  color: #B0BEC5;
+}
+.center {
+	text-align: center;
+}
+
+.picture{
+	height: auto;
+	width: 12em;
 }
