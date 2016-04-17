@@ -136,12 +136,14 @@ h2 {
 
 .picture{
 	height: auto;
-	width: 12em;
+	width: 11em;
 }
 
-.float {
-	float: left;
+ul.float li {
 
+	float: center;
+	margin-left: 5vw;
+	display: inline-block;
 }
 
 li {
@@ -150,4 +152,10 @@ li {
 
 nav {
   text-decoration: none;
+}
+
+li i.fa {
+	float: center;
+	font-size: 40px;
+	color: blue;
 }
