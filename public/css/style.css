@@ -1,9 +1,12 @@
+* {
+	text-decoration: none;
+}
 
 body {
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
   font-family: Oxygen, sans-serif;
-  padding-top: 50px;
+  padding: 0px;
 }
 
 /* Navbar customizations */
@@ -70,7 +73,7 @@ h2 {
 
 #home {
   height: 500px;
-  padding: 60px;
+  padding: 100px;
   background-image: url('http://i66.tinypic.com/2j3si28.jpg');
   background-size: cover;
   background-attachment: fixed;
@@ -90,13 +93,13 @@ h2 {
 }
 
 #social {
-  padding: 40px 30px;
+  padding: 30px 30px;
   background-color: #CFD8DC;
 }
 
 #social .col-xs-12 {
   margin-bottom: 10px;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 #social .thumbnail {
@@ -135,6 +138,7 @@ h2 {
 }
 
 .picture{
+	display: center-block;
 	height: auto;
 	width: 11em;
 }
@@ -158,4 +162,9 @@ li i.fa {
 	float: center;
 	font-size: 40px;
 	color: blue;
+}
+
+ul.nav li {
+	display: inline-block;
+
 }
