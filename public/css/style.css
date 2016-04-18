@@ -13,7 +13,7 @@ body {
 
 .navbar-custom {
   background-color: #455A64;
-  border: 0px;
+  border: 0;
   font-family: Oxygen;
 }
 
@@ -50,11 +50,11 @@ body {
 }
 
 /* hamburger menu */
-
+/*
 .navbar-custom .navbar-toggle {
   border: 0px;
-  margin: 6px 15px 2px 0px;
-}
+  /*margin: 6px 15px 2px 0px;*//*
+}*/*/
 
 #nav-toggle-icon {
   color: rgba(255, 255, 255, 0.8);
@@ -74,7 +74,7 @@ h2 {
 #home {
   height: 500px;
   padding: 100px;
-  background-image: url('http://i66.tinypic.com/2j3si28.jpg');
+  background-image: url('http://i42.tinypic.com/2itk12a.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -94,7 +94,7 @@ h2 {
 
 #social {
   padding: 30px 30px;
-  background-color: #CFD8DC;
+  background-color: #FFF9C4;
 }
 
 #social .col-xs-12 {
@@ -116,8 +116,11 @@ h2 {
 }
 
 #contact {
-  padding: 40px 40px 100px 40px;
-  background-color: #FFF9C4;
+	  height: 500px;
+  padding: 100px;
+  background-image: url('http://i58.tinypic.com/2lsbd3n.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #contact a {
@@ -125,7 +128,7 @@ h2 {
 }
 
 .project {
-  padding: 10px;
+  padding: 0px;
 }
 
 .footer {
@@ -162,9 +165,17 @@ li i.fa {
 	float: center;
 	font-size: 40px;
 	color: blue;
+	margin-right: 7vw;
 }
 
 ul.nav li {
 	display: inline-block;
+}
 
+.center-block picture {
+	text-align: center;
+}
+
+*{
+	margin: 0em;
 }
