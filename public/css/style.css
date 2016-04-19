@@ -67,8 +67,9 @@ body {
 /* Main */
 
 h1,
-h2 {
+h2, h3 {
   font-family: "Josefin Sans";
+  color: #607D8B;
 }
 
 #home {
